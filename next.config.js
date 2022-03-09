@@ -11,10 +11,10 @@ const withMDX = require('@next/mdx')({
 module.exports = withMDX({
    // Append the default value with md extensions
    pageExtensions: ['js', 'jsx', 'mdx'],
-   assetPrefix: !debug ? '/360/' : '',
+   assetPrefix: !debug ? '/' : '',
    images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
 })
 
