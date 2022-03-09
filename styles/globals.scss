@@ -1,0 +1,58 @@
+@import "./colors.module.scss";
+
+html {
+  background-color: $mainNavy;
+}
+* {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Catamaran', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  scrollbar-width: none;
+  background-color: transparent;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+h1.sectionLabel {
+  color: $mainLightBlue;
+  margin-bottom: 2em;
+
+  font-size: 1.5em !important;
+  font-weight: 400;
+  font-family: "Ubuntu Mono", monospace !important;
+
+  em {
+      color: $mainLightPurple;
+      font-style: inherit;
+  }
+}
+
+.button {
+  margin: 1.25em 0;
+  padding: 0.5em 1em;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1em;
+
+  color: $mainGrey;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.1em;
+  transition: all 0.3s ease;
+  border-radius: 9px;
+  border: 2px solid $mainLightBlue;
+  background-color: transparent;
+  cursor: pointer;
+  scale: 1;
+
+  &.exit {
+      display: none;
+  }
+
+  &:hover{
+      text-decoration-color: $mainLightBlue;
+      background-color: rgba($mainLightBlue, 0.1);
+  }
+}

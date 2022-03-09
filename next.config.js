@@ -4,6 +4,17 @@
 
 const debug = process.env.NODE_ENV !== 'production'
 
-module.exports = {
-  assetPrefix: !debug ? '/360/' : '',
-}
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+})
+
+module.exports = withMDX({
+   // Append the default value with md extensions
+   pageExtensions: ['js', 'jsx', 'mdx'],
+   assetPrefix: !debug ? '/360/' : '',
+   images: {
+    loader: 'akamai',
+    path: '',
+  },
+})
+

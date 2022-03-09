@@ -1,0 +1,28 @@
+@import "../../styles/colors.module.scss";
+
+.assignments {
+    padding-top: 100px;
+    background-color: $mainNavy;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        width: 100%;
+        li {
+            width: 75vw;
+            max-width: 1000px;
+            max-height: 400px;
+            margin: 0 auto 7em auto;
+            &.labelWrapper {
+                margin: 0 auto;
+            }
+            &:last-child {
+                margin-bottom: 3em;
+            }
+        }
+
+        
+    }
+
+}
