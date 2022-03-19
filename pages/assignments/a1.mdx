@@ -1,9 +1,6 @@
 import AssignmentLayout from '../../components/layouts/AssignmentLayout'
 import assignments from '../../data/assignments'
 import Image from 'next/image'
-import chart1 from '../../public/images/Average_Share_of_Production_from_2000_to_2020_for_EU_Member_States.png'
-import chart2 from '../../public/images/Average_Share_of_Production_in_2000_vs_2020_for_EU_Member_States.png'
-import chart3 from '../../public/images/Share_of_Renewables_from_2000_to_2020_for_EU_Member_States.png'
 
 export const meta = assignments.find(a => a.id === 1);
 
@@ -17,7 +14,7 @@ Find the dataset that I used [here](https://data.world/makeovermonday/2021w5):
 tailwind for Renewables and a recent trepidation for Coal and other Fossil fuels. These factors coalesced to show 
 Renewables overtaking Fossil Fuels in production share for the first time in the history of the European Union.
 <br/>
-<Image src={chart1} layout="responsive" />
+<Image src={'/images/Average_Share_of_Production_from_2000_to_2020_for_EU_Member_States.png'} width={1000} height={555} layout="responsive" />
 <br/>
 ---
 
@@ -25,7 +22,7 @@ This paradigm shift is quite noticeable when looking deeper into the individual 
 production in the EU. The figure below offers a glimpse into the strides that the EU has made 
 in the last 20 years away from Fossil Fuels towards Renewables.
 <br/>
-<Image src={chart2} layout="responsive" />
+<Image src={'/images/Average_Share_of_Production_in_2000_vs_2020_for_EU_Member_States.png'} width={1000} height={656} layout="responsive" />
 <br/>
 Sources like Coal and Hard Coal have more than halved in production share while renewable sources like 
 Wind, Solar and Bioenergy have increased exponentially. This trend towards renewables has a peculiar 
@@ -40,4 +37,4 @@ Bioenergy and Solar grew from insignificant in 2000 to reasonable production sha
 though. Growing from a mere 0.81% average share of production in 2000, Wind became the leading source of Renewable 
 energy with an average production share of 14.37% in 2020.
 <br/>
-<Image src={chart3} layout="responsive" />
+<Image src={'/images/Share_of_Renewables_from_2000_to_2020_for_EU_Member_States.png'} width={1000} height={653} layout="responsive" />

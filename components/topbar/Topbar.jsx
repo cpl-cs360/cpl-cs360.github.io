@@ -6,7 +6,7 @@ export default function Topbar() {
     <div className={styles.topbar}>
         <div className={styles.wrapper}>
             <div className={styles.left}>
-                <Link href="/">
+                <Link href="/#home">
                     <a className={styles.logo}>cpl.</a>
                 </Link>
             </div>
@@ -18,7 +18,7 @@ export default function Topbar() {
                     <Link href="/#assignments">
                         <a><li>02. <span>Assignments</span></li></a>
                     </Link>
-                    <a href="pdfs/Colm_Lang_Software_Engineer_Intern.pdf" target="_blank" className={styles.button + " button"}>Resume</a>
+                    <a href="https://resume.io/r/fevBaW1OR" target="_blank" className={styles.button + " button"}>Resume</a>
                 </ul>
             </div>
         </div>

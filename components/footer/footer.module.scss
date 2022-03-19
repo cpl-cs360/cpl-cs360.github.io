@@ -1,0 +1,30 @@
+@import "../../styles/colors.module.scss";
+
+.footer {
+    width: 100vw;
+    height: 80px;
+    background-color: $mainNavy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        font-family: 'Catamaran';
+        color: $mainGrey;
+        font-size: 16px;
+        cursor: default;
+
+        a {
+            font-family: 'Ubuntu Mono', monospace;
+            color: $mainLightPurple;
+            text-underline-offset: 1px;
+            text-decoration-color: transparent;
+            transition: text-decoration-color 0.3s ease;
+
+            &:hover {
+                text-decoration-color: $mainLightPurple;
+            }
+        }
+    }
+    
+}
