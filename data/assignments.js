@@ -1,5 +1,15 @@
 export default [
     {
+        id: 8,
+        title: 'Interaction in D3',
+        description: 'Explored interaction techniques in D3 like filtering, brushing, and zooming/panning using a provided line chart.',
+        tools: "D3, JavaScript, HTML, CSS"
+    },{
+        id: 7,
+        title: 'Graph Visualization',
+        description: 'Visualizing graphs and related nodes using D3. I implemented a force directed layout and an adjacency matrix.',
+        tools: "D3, JavaScript, HTML, CSS, Python"
+    },{
         id: 6,
         title: 'Color Scales in D3',
         description: 'An exploration of color scales in D3.',
