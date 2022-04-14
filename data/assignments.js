@@ -1,5 +1,10 @@
 export default [
     {
+        id: 9,
+        title: 'GeoVisualization in D3',
+        description: 'For this assignment, I visualize geospatial data using d3. This is done with a choropleth map showing population and a proportional symbols map showing housing cost.',
+        tools: "D3, JavaScript, HTML, CSS, ColorBrewer"
+    },{
         id: 8,
         title: 'Interaction in D3',
         description: 'Explored interaction techniques in D3 like filtering, brushing, and zooming/panning using a provided line chart.',
