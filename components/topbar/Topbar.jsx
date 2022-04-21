@@ -18,6 +18,9 @@ export default function Topbar() {
                     <Link href="/#assignments">
                         <a><li>02. <span>Assignments</span></li></a>
                     </Link>
+                    <Link href="/sbmap/">
+                        <a><li>03. <span>The Final Project (SBMAP)</span></li></a>
+                    </Link>
                     <a href="https://resume.io/r/fevBaW1OR" target="_blank" className={styles.button + " button"}>Resume</a>
                 </ul>
             </div>
