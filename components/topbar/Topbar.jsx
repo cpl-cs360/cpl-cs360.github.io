@@ -6,7 +6,7 @@ export default function Topbar() {
     <div className={styles.topbar}>
         <div className={styles.wrapper}>
             <div className={styles.left}>
-                <Link href="/#home">
+                <Link href="https://colmlang.com">
                     <a className={styles.logo}>cpl.</a>
                 </Link>
             </div>
