@@ -21,7 +21,7 @@ export default function Topbar() {
                     <Link href="/sbmap/">
                         <a><li>03. <span>The Final Project (SBMAP)</span></li></a>
                     </Link>
-                    <a href="https://resume.io/r/fevBaW1OR" target="_blank" className={styles.button + " button"}>Resume</a>
+                    <a href="https://resume.io/r/aEqNNXM80" target="_blank" className={styles.button + " button"}>Resume</a>
                 </ul>
             </div>
         </div>
